@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-exit",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Implements navigator.app.exit on Android",
   "cordova": {
     "id": "solti.cordova.plugin.exit",
