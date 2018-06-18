@@ -5,14 +5,14 @@
 package org.solti.cordova.plugin.exit;
 
 import org.apache.cordova.CallbackContext;
-import org.apache.cordova.CordovaInterface;
 import org.apache.cordova.CordovaPlugin;
-import org.apache.cordova.CordovaWebView;
 import org.apache.cordova.PluginResult;
+
 import org.json.JSONArray;
-import org.json.JSONException;
 import org.json.JSONObject;
+
 import android.app.Activity;
+import android.content.Intent;
 
 public final class ExitPlugin extends CordovaPlugin {
 	protected void pluginInitialize() {}
