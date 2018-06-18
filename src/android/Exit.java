@@ -17,7 +17,7 @@ import android.app.Activity;
 public final class ExitPlugin extends CordovaPlugin {
 	protected void pluginInitialize() {}
 
-	public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {		
+	public boolean execute(String action, JSONArray args, CallbackContext callbackContext) {		
 		if (!action.equals("exit")) false;
 		
 		try {
