@@ -2,7 +2,7 @@
 *  exit.js                                                                      *
 *  Author: Denes Solti                                                          *
 ********************************************************************************/
-const exec = require('cordova/exec');
+var exec = require('cordova/exec');
 
 module.exports = {
   exit: function() {
