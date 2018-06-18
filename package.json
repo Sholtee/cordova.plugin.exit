@@ -1,0 +1,21 @@
+{
+  "name": "cordova-plugin-exit",
+  "version": "1.0.0",
+  "description": "Implements navigator.app.exit on Android",
+  "cordova": {
+    "id": "solti.cordova.plugin.exit",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sholtee/cordova.plugin.exit.git"
+  },
+  "keywords": [
+    "cordova",
+	"exit",
+    "terminate"
+  ],
+  "author": "Denes Solti"
+}
