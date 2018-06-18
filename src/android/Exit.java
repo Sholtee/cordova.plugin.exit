@@ -26,7 +26,7 @@ public final class ExitPlugin extends CordovaPlugin {
 			if (args.size() > 0) {
 				final Intent intent = new Intent();
 				
-				intent.putExtra("RetVal", args.getString(0));				
+				intent.putExtra("RetVal", args.getString(0));
 				activity.setResult(Activity.RESULT_OK, intent);
 			}
 			
