@@ -5,7 +5,7 @@
 const exec = require('cordova/exec');
 
 module.exports = {
-  exit: function(retVal) {
-    exec(null, null, 'Exit', 'exit', [retVal]);
+  exit: function() {
+    exec(null, null, 'Exit', 'exit', Array.from(arguments));
   }
 };

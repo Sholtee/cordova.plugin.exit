@@ -22,13 +22,15 @@ public final class ExitPlugin extends CordovaPlugin {
 		
 		try {
 			final Activity activity = this.cordova.getActivity();
-			final Intent intent = new Intent();
+	
+			if (args.size() > 0) {
+				final Intent intent = new Intent();
+				
+				intent.putExtra("RetVal", args.getString(0));				
+				activity.setResult(Activity.RESULT_OK, intent);
+			}
 			
-			intent.putExtra("RetVal", args.getString(0));
-			
-			activity.setResult(Activity.RESULT_OK, intent);
-			activity.finish();
-			
+			activity.finish();		
 			callbackContext.sendPluginResult(new PluginResult(PluginResult.Status.OK, 0));
 		} catch (Exception e) {
 			callbackContext.sendPluginResult(new PluginResult(PluginResult.Status.ERROR, 1));
