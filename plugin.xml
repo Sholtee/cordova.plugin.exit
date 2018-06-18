@@ -14,6 +14,6 @@
         <param name="android-package" value="org.solti.cordova.plugin.exit" />
       </feature>
     </config-file>
-    <source-file src="src/android/Exit.java" target-dir="src/cordova/custom/plugins/exit" />
+    <source-file src="src/android/ExitPlugin.java" target-dir="src/cordova/custom/plugins/exit" />
   </platform>
 </plugin>
