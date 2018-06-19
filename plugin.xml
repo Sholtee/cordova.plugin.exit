@@ -2,6 +2,7 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="solti.cordova.plugin.exit" version="0.0.1">
   <name>Exit</name>
   <description>Implements navigator.app.exit on Android</description>
+  <author>Dénes Solti</author>
 
   <js-module src="www/exit.js" name="exit">
     <merges target="navigator.app" />
@@ -9,11 +10,11 @@
 
   <!-- android -->
   <platform name="android">
+    <source-file src="src/android/ExitPlugin.java" target-dir="src/cordova/custom/plugins/exit" />
     <config-file target="config.xml" parent="/*">
-      <feature name="Exit">
+      <feature name="ExitPlugin">
         <param name="android-package" value="org.solti.cordova.plugin.exit" />
       </feature>
     </config-file>
-    <source-file src="src/android/ExitPlugin.java" target-dir="src/cordova/custom/plugins/exit" />
   </platform>
 </plugin>
