@@ -10,7 +10,7 @@ This plugin supports PhoneGap/Cordova apps running on Android.
 
 #### Automatic Installation using PhoneGap/Cordova CLI (Android)
 
-`cordova plugin add cordova-plugin-exit`
+`cordova plugin add @sholtee/cordova-plugin-exit`
 
 ## Usage
 ```js
