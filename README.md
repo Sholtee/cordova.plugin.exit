@@ -14,8 +14,8 @@ This plugin supports PhoneGap/Cordova apps running on Android.
 
 ## Usage
 ```js
-    const userData = {
-	    field: "kerekesfacapa"
-    };
-    navigator.app.exit(userData);
+const userData = {
+  field: "kerekesfacapa"
+};
+navigator.app.exit(userData);
 ```
