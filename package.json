@@ -1,6 +1,7 @@
 {
   "name": "@sholtee/cordova-plugin-exit",
   "version": "0.0.1",
+  "license": "MIT",
   "description": "Implements navigator.app.exit on Android",
   "cordova": {
     "id": "solti.cordova.plugin.exit",
