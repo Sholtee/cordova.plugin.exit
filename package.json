@@ -1,5 +1,5 @@
 {
-  "name": "cordova-plugin-exit",
+  "name": "@sholtee/cordova-plugin-exit",
   "version": "0.0.1",
   "description": "Implements navigator.app.exit on Android",
   "cordova": {
